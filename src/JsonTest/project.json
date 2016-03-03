@@ -1,0 +1,35 @@
+﻿{
+    "version": "1.0.0-*",
+    "compilationOptions": {
+        "emitEntryPoint": true
+    },
+
+    "dependencies": {
+        "Microsoft.AspNetCore.Hosting": "1.0.0-rc2-16354",
+        "Microsoft.AspNetCore.IISPlatformHandler": "1.0.0-rc2-16276",
+        "Microsoft.AspNetCore.Mvc": "1.0.0-rc2-17116",
+        "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-rc2-16448",
+        "Microsoft.Extensions.Configuration.FileProviderExtensions": "1.0.0-rc2-16100",
+        "Microsoft.Extensions.Configuration.Json": "1.0.0-rc2-16100",
+        "Microsoft.Extensions.Logging": "1.0.0-rc2-16119",
+        "Microsoft.Extensions.Logging.Console": "1.0.0-rc2-16119",
+        "Microsoft.Extensions.Logging.Debug": "1.0.0-rc2-16119"
+    },
+
+    "commands": {
+        "web": "JsonTest"
+    },
+
+    "frameworks": {
+        "dnx451": { }
+    },
+
+    "exclude": [
+        "wwwroot",
+        "node_modules"
+    ],
+    "publishExclude": [
+        "**.user",
+        "**.vspscc"
+    ]
+}
